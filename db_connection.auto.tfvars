@@ -5,3 +5,5 @@ db_instance_class = "db.t3.micro"
 db_username = "tf_user"
 db_password = "ASHDKJ123712asdkjha"
 db_group_name = "default.mysql8.0"
+db_subnet_group_name = "default"
+vpc_security_group_ids = ["sg-12345678"] # Example security group ID, replace with actual

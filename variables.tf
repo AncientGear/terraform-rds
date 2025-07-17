@@ -28,3 +28,16 @@ variable "db_group_name" {
     description = "The database group name"
     type        = string
 }
+
+variable "db_subnet_group_name" {
+    description = "The name of the DB subnet group"
+    type        = string
+    default     = "default"
+  
+}
+
+variable "vpc_security_group_ids" {
+    description = "List of security group IDs to associate with the DB instance"
+    type        = list(string)
+    default     = []
+}
