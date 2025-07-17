@@ -1,0 +1,7 @@
+db_name = "tf_creating_rds"
+db_engine = "mysql"
+db_engine_version = "8.0"
+db_instance_class = "db.t3.micro"
+db_username = "tf_user"
+db_password = "ASHDKJ123712asdkjha"
+db_group_name = "default.mysql8.0"
